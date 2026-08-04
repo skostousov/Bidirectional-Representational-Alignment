@@ -4,6 +4,8 @@ Accompanying code and analyses for the paper
 ```
 S. Kostousov, A. Kaushik, & B. Laschowski, "Bidirectional Representational Alignment Between Biological and Artificial Neural Networks", bioRxiv, 2026
 ```
+Note that the code an paper are affiliated with the Machine Intelligence Lab at the University of Toronto
+
  This repository provides the training, evaluation, and analysis code used to manipulate and study representational geometry in self-supervised vision models and to evaluate bidirectional representational alignment with biological neural data.
 
 **Summary:**
@@ -24,8 +26,8 @@ S. Kostousov, A. Kaushik, & B. Laschowski, "Bidirectional Representational Align
 **Dependencies**
 <p>Install the usual PyTorch ecosystem (torch, torchvision, torchaudio) and  scientific Python packages (numpy, scipy, scikit-learn, pandas, matplotlib).
 The forward and reverse predictivty metrics are pieced together from the reverse_pred library (https://github.com/vital-kolab/reverse_pred) and can be found in `src/latest_neural_data/ev_helper.py`. 
-The neural data is downloaded via the brainscore_vision library (`MajajHong2015public.IT-pls`). It must be downloaded by running the script src/latest_neural_data/save_neural_data.py before anything else is run.
-The code uses optuna for hyperparameter optimization 
+The neural data is downloaded via the brainscore_vision library (the specific dataset is `MajajHong2015public.IT-pls`). It must be downloaded by running the script src/latest_neural_data/save_neural_data.py before anything else is run.
+The code uses optuna for hyperparameter optimization.
 
 **Data**
 - ImageNet (used for self-supervised training): experiments in the paper used a subset (100 images per class, balanced split). The repository does not include ImageNet.
