@@ -4,7 +4,7 @@ Accompanying code and analyses for the paper
 ```
 S. Kostousov, A. Kaushik, & B. Laschowski, "Bidirectional Representational Alignment Between Biological and Artificial Neural Networks", bioRxiv, 2026
 ```
-Note that the code an paper are affiliated with the Machine Intelligence Lab at the University of Toronto
+Note that the code an paper are affiliated with the Machine Intelligence Lab at the University of Toronto. 
 
  This repository provides the training, evaluation, and analysis code used to manipulate and study representational geometry in self-supervised vision models and to evaluate bidirectional representational alignment with biological neural data.
 
@@ -56,3 +56,8 @@ code for forward and reverse predictivity evaluation (in src/latest_neural_data/
 S. Muzellec, K. Kar, "Reverse Predictivity: Going Beyond One-Way Mapping to Compare Artificial Neural Network Models and Brains", bioRxiv, 2025
 
 ```
+
+**Affiliation**
+
+This research was conducted at the [Machine Intelligence Lab](https://github.com/Comp-Neuro-Lab) at the University of Toronto, under the supervision of [Dr. Brokoslaw Laschowski](https://github.com/DrLaschowski).
+For related research projects and code, see the [Machine Intelligence Lab GitHub organization](https://github.com/Comp-Neuro-Lab).
